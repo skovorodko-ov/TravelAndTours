@@ -1,0 +1,29 @@
+.container {
+    margin-top: 39px;
+}
+
+.row__logo {
+    max-width: 41px;
+    max-height: 41px;
+}
+.row__nav {
+    margin-top: 39px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link {
+    color: #202336;
+    font-family: "Inter";
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn {
+    width: 132px;
+    height: 44px;
+}
+.btn-outline-warning {
+    color: #ff0707;
+    border-color: #ffc107;
+}
