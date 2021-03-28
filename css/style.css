@@ -1,9 +1,9 @@
 .header {
     margin-top: 39px;
 }
-div {
+/* div {
     border: 1px solid black;
-}
+} */
 .row__logo {
     max-width: 41px;
     max-height: 41px;
@@ -100,10 +100,11 @@ letter-spacing: 0em;
 text-align: left;
 max-width: 144px;
 }
+
 .blockSecond {
     margin-top: 390px;
 }
-.blockSecond__rightColumn {
+.blockSecond__rightColumn, .block4__leftColumn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -120,8 +121,9 @@ h2 {
     letter-spacing: 0em;
     text-align: left;
     color: black;
+    padding: 0;
 }
-.blockSecond__p {
+p {
     font-family: Mulish;
     font-size: 17px;
     font-style: normal;
@@ -131,10 +133,10 @@ h2 {
     text-align: left;
     color: #7D7987;
 }
-.block3 {
+.block3, .block6 {
     margin-top: 293px;
 }
-.block3__title {
+.block3__title, .block6__title {
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -146,14 +148,179 @@ h2 {
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
-    line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
 }
-.card-img-top {
+.block3__cards, .block6__cards {
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.block3__card {
+    padding: 0;
+    max-width: 261px;
+}
+/* .card-img-top {
+    box-sizing: border-box;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .card-title {
+    box-sizing: border-box;
     position: relative;
     z-index: 1;
+} */
+h5 {
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card-text {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.block4 {
+    margin-top: 232px;
+}
+.block5 {
+    margin-top: 248px;
+    padding: 0;
+}
+.block5__h2 {
+    padding: 0;
+}
+.block5__img {
+    max-width: 384px;
+    max-height: 491px;
+    margin-top: 60px;
+}
+.block5__columnLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.block5__stars {
+    max-width: 189px;
+    max-height: 24px;
+    margin-bottom: 20px;
+}
+.block5__p {
+    color: black;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.block5__name {
+    color: black;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.block5__span {
+    color: black;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.block6__card {
+    padding: 0;
+    max-width: 266px;
+    height: auto;
+}
+.block6__btnCard {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 0;
+}
+.footer {
+    margin-top: 271px;
+    height: 482px;
+}
+.footer_img {
+    max-width: 44px;
+}
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer__info {
+    height: 80%;
+}
+
+.footer__line {
+    width: 100%;
+    height: 0.6px;
+    background: #C4C4C4;
+}
+.footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.footer__socialMedia {
+    max-width: 248px;
+    
+}
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer__title {
+    font-family: Mulish;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    color: black;
+}
+.footer__span {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    color: #848484;
 }
